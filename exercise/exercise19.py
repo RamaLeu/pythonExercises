@@ -9,6 +9,6 @@ soup = BeautifulSoup(r_html)
 text = []
 for item in soup.find_all('p'):
     if item.string != None:
-        text.append(item.string)*
+        text.append(item.string)
 
 print(text)

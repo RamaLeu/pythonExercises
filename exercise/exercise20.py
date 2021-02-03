@@ -50,4 +50,4 @@ if __name__ == '__main__':
     a.sort()
     print("List: ", a)
     searchable = int(input("Input a number u want to search: "))
-    answer = binary_search(searchable, a)
+    binary_search(searchable, a)
